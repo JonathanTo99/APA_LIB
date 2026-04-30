@@ -1,0 +1,141 @@
+# --- THE SAFETY SHIELD (Global Ignore) ---
+# Ignore these file types EVERYWHERE in the vault
+*.pdf
+*.zip
+*.pptx
+*.ppt
+*.docx
+*.doc
+*.xlsx
+*.xls
+*.xltx
+*.xlt
+*.mov
+*.mp4
+*.mp3
+*.fcs
+*.exe
+*.dll
+*.msi
+*.so
+*.log
+*.tsv
+*.heic
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+.pytest_cache/
+.Python
+.env/
+.venv/
+bin/
+dist/
+build/
+out/
+target/
+htmlcov/
+
+# Bioinformatics data files
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bam.bai
+*.sam
+*.vcf
+*.vcf.gz
+*.bed
+*.gtf
+*.gff
+*.gff3
+*.fasta
+*.fa
+*.fai
+*.h5
+*.hdf5
+*.loom
+*.h5ad
+results/
+data/raw/
+
+# Conda/Mamba
+.conda/
+envs/
+*.conda
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# Secrets
+*.env
+.env.*
+secrets/
+credentials/
+*.pem
+*.key
+config/local_settings.py
+
+# Snakemake
+.snakemake/
+snakemake_log/
+
+# Nextflow
+.nextflow/
+.nextflow.log*
+work/
+
+# Testing
+.coverage
+.tox/
+.hypothesis/
+nosetests.xml
+coverage.xml
+*.cover
+.coverage.*
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Data files (uncomment patterns as needed)
+*.raw
+*.mzML
+*.mzXML
+
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+# Ruff
+.ruff_cache/
+
+# MS Office temp files
+~$*
